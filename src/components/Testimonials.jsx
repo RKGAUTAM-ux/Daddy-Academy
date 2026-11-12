@@ -1,0 +1,5 @@
+import { reviews } from '../data/content.js'
+
+export default function Testimonials() {
+  return <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20"><div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[10px] font-bold uppercase tracking-widest text-[#0D7135]">What women are saying</p><h2 className="mt-2 text-3xl font-extrabold">Straight from the <span className="underline decoration-[#FFB8A4] decoration-[7px] underline-offset-[-1px]">DMs</span></h2></div><span className="rounded-lg border border-[#3C2720]/30 bg-white px-4 py-2 text-sm font-bold">★★★★★ <span className="text-xs font-normal">from readers</span></span></div><div className="mt-8 grid gap-6 md:grid-cols-2">{reviews.map((review, index) => <blockquote key={review} className={`rounded-2xl border border-[#3C2720]/40 bg-white p-6 text-sm leading-7 shadow-[5px_5px_0_#3C2720] ${index === 1 ? 'md:mt-12' : ''}`}>{review}<p className="mt-4 font-bold text-[#0D7135]">— A reader</p></blockquote>)}</div></section>
+}
