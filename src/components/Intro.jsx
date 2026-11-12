@@ -3,7 +3,7 @@ export default function Intro() {
 
   const paragraph = (
     <>
-      You can probably describe him before you meet him. The intensity that moves a little too fast. The
+      ou can probably describe him before you meet him. The intensity that moves a little too fast. The
       small thing that doesn’t add up, so you file it away. The flutter in your stomach you call
       excitement but have started to suspect is something else.
       <br />
