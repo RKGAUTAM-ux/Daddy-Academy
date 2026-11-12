@@ -10,36 +10,6 @@ const sectionContent = {
     "Four phases. Twelve dates. One clear decision. Here’s exactly what you’ll learn inside each phase.",
 };
 
-const phases = [
-  {
-    phase: "PHASE 1",
-    dates: "DATES 1-3",
-    title: "Safety & Baseline",
-    description:
-      "Before you invest anything, you check whether the basics of a safe, honest relationship are there, and learn to spot love bombing and fast intensity early.",
-  },
-  {
-    phase: "PHASE 1",
-    dates: "DATES 1-3",
-    title: "Safety & Baseline",
-    description:
-      "Before you invest anything, you check whether the basics of a safe, honest relationship are there, and learn to spot love bombing and fast intensity early.",
-  },
-  {
-    phase: "PHASE 1",
-    dates: "DATES 1-3",
-    title: "Safety & Baseline",
-    description:
-      "Before you invest anything, you check whether the basics of a safe, honest relationship are there, and learn to spot love bombing and fast intensity early.",
-  },
-  {
-    phase: "PHASE 1",
-    dates: "DATES 1-3",
-    title: "Safety & Baseline",
-    description:
-      "Before you invest anything, you check whether the basics of a safe, honest relationship are there, and learn to spot love bombing and fast intensity early.",
-  },
-];
 
 export default function Guide() {
   return (
@@ -62,9 +32,9 @@ export default function Guide() {
           {sectionContent.description}
         </p>
 
-        {phases.map((item, index) => (
+        {phases.map(([phaseInfo, title, description]) => (
           <div
-            key={index}
+            key={phaseInfo}
             className="relative mr-2 mb-[20px] sm:mb-[32px]"
           >
             {/* Shadow / Back Layer */}
@@ -74,15 +44,15 @@ export default function Guide() {
             <div className="relative rounded-[15px] border-[2px] border-[#3C2720] bg-white px-[16px] py-[16px] sm:rounded-[25px] sm:px-[45px] sm:py-[56px]">
 
               <p className="mb-[10px] inline-block rounded-[3px] bg-[#0D7135] px-[10px] py-[4px] font-['Montserrat'] text-[8px] leading-none font-semibold tracking-[2px] text-white uppercase sm:mb-[20px] sm:rounded-[5px] sm:px-[24px] sm:py-[6px] sm:text-[16px] sm:tracking-[2.4px]">
-                {item.phase} &nbsp; | &nbsp; {item.dates}
+                {phaseInfo}
               </p>
 
               <h3 className="mb-[10px] font-['DM_Sans'] text-[22px] leading-[1.4] font-bold text-[#3C2720] sm:mb-[20px] sm:text-[40px]">
-                {item.title}
+                {title}
               </h3>
 
               <p className="max-w-[1130px] font-['Nunito'] text-[14px] text-[#3C2720] sm:text-[24px]">
-                {item.description}
+                {description}
               </p>
 
             </div>
