@@ -18,8 +18,5 @@ export default function App() {
     <Reasons />
     <Structure />
     <Guide />
-    <Testimonials />
-    <Offer />
-    <Footer />
   </main>
 }
