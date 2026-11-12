@@ -1,5 +1,5 @@
 export default function Intro() {
-  const image = "../Daddy Academy/images/Y-Shape.svg";
+  const image = "/images/Y-Shape.svg";
 
   const paragraph = (
     <>
