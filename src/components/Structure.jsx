@@ -1,5 +1,3 @@
-import { promises } from '../data/content.js'
-
 const sectionContent = {
   label: "SO WHAT ACTUALLY WORKS?",
   heading: "You have the self awareness. What you’re missing is",
@@ -12,9 +10,9 @@ const checkIcon = "/images/da-check-icn.svg";
 
 const promises = [
   "Start on date one, before attachment forms",
-  "Start on date one, before attachment forms",
-  "Start on date one, before attachment forms",
-  "Start on date one, before attachment forms",
+  "Track what he does, not how he makes you feel",
+  "Tell calm attraction from anxious chemistry",
+  "Reach a clear decision, not more ambiguity",
   "Work every time, with every man",
 ];
 

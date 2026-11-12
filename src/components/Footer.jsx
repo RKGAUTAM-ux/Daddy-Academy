@@ -1,3 +1,0 @@
-export default function Footer() {
-  return <footer className="bg-[#3C2720] py-10 text-[#EDF5EE]"><div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-5 sm:flex-row sm:items-center sm:px-8"><div><img src="/images/logo.png" alt="Daddy Academy" className="mb-3 w-28"/><h2 className="text-3xl font-extrabold">Stop dating on hope.</h2></div><div><p className="max-w-xs text-sm">Track what he does, date by date, so your decision rests on evidence, not a feeling.</p><a href="#program" className="mt-4 inline-flex rounded-full bg-[#0D7135] px-5 py-3 text-sm font-bold text-white hover:bg-[#095a29]">Break the Pattern $149</a></div></div></footer>
-}

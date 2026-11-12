@@ -1,6 +1,3 @@
-import { phases } from '../data/content.js'
-
-
 const sectionContent = {
   label: "MEET THE SYSTEM, HOW IT WORKS",
   heading: "Break The Pattern: The",
@@ -10,6 +7,12 @@ const sectionContent = {
     "Four phases. Twelve dates. One clear decision. Here’s exactly what you’ll learn inside each phase.",
 };
 
+const phases = [
+  ["PHASE 1  |  DATES 1–3", "Safety & Baseline", "Before you invest anything, check the basics of a safe, honest relationship and learn to spot love bombing and fast intensity early."],
+  ["PHASE 2  |  DATES 4–6", "Consistency & Character", "Track whether his effort matches his words, especially when there’s no reason to perform. Inconsistency isn’t a reason to try harder. It’s data."],
+  ["PHASE 3  |  DATES 7–9", "Compatibility & Values", "Look past surface chemistry to how he handles friction, boundaries, and real conversations."],
+  ["PHASE 4  |  DATES 10–12", "Direction & Decision", "One question: is he moving toward a committed relationship with you, on his own?"],
+]
 
 export default function Guide() {
   return (

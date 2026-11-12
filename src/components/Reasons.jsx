@@ -1,5 +1,3 @@
-import { insights } from '../data/content.js'
-
 const sectionTitle = {
   highlight: "4 reasons",
   text: "knowing your pattern hasn’t stopped it",
