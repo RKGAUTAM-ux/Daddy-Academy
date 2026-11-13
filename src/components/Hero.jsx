@@ -11,7 +11,7 @@ export default function Hero() {
         <div>
           <h1 className="font-['DM_Sans'] text-[32px] sm:text-[40px] lg:text-[64px] leading-[1.1] text-[#3C2720] font-bold mb-[24px] sm:mb-[32px]">
             {heading}{" "}
-            <span className="highlight-text">
+            <span className="highlight-text hero_highlight">
               {highlightText}
             </span>
           </h1>
