@@ -22,7 +22,7 @@ export default function Intro() {
 
   return (
     <section className="py-[48px] sm:py-[90px]">
-      <div className="mx-auto max-w-[1452px] px-[20px]">
+      <div className="max-w-[1452px] px-[20px] mx-auto">
         <div className="rounded-[16px] border border-[#0D7135] px-[16px] py-[36px] sm:rounded-[24px] sm:px-[100px] sm:py-[64px]">
           <div className="mb-[40px] flex items-start gap-[0] sm:mb-[64px]">
             <img

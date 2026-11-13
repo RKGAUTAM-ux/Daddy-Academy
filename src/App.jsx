@@ -6,6 +6,9 @@ import Reasons from './components/Reasons.jsx'
 import Structure from './components/Structure.jsx'
 import Guide from './components/Guide.jsx'
 import DecisionMatrix from './components/DecisionMatrix.jsx'
+import Testimonials from './components/Testimonials.jsx'
+import EverythingYouGet from './components/EverythingYouGet.jsx'
+
 
 export default function App() {
   const [decision, setDecision] = useState('Proceed')
@@ -17,5 +20,7 @@ export default function App() {
     <Structure />
     <Guide />
     <DecisionMatrix />
+    <Testimonials />
+    <EverythingYouGet />
   </main>
 }

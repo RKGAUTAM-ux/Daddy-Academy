@@ -7,16 +7,16 @@ export default function Hero() {
 
   return (
     <section>
-      <div className="mx-auto grid max-w-[1452px] grid-cols-1 gap-[28px] px-[20px] sm:items-center sm:gap-[48px] md:grid-cols-2 lg:gap-[100px]">
+      <div className="max-w-[1452px] px-[20px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[28px] sm:gap-[48px] lg:gap-[100px] sm:items-center">
         <div>
-          <h1 className="mb-[24px] font-['DM_Sans'] text-[32px] leading-[1.1] font-bold text-[#3C2720] sm:mb-[32px] sm:text-[40px] lg:text-[64px]">
+          <h1 className="font-['DM_Sans'] text-[32px] sm:text-[40px] lg:text-[64px] leading-[1.1] text-[#3C2720] font-bold mb-[24px] sm:mb-[32px]">
             {heading}{" "}
-            <span className="relative before:content-[''] before:absolute before:z-[-1] before:w-full before:h-[20px] md:before:h-[26px] lg:before:h-[36px] before:bg-[#FFB8A4] before:bottom-[0] before:rounded-[4px]">
+            <span className="highlight-text">
               {highlightText}
             </span>
           </h1>
 
-          <p className="font-['Playfair_Display'] text-[16px] leading-[1.1] text-[#3C2720] italic sm:text-[24px] lg:text-[32px]">
+          <p className="font-['Playfair_Display'] text-[16px] sm:text-[24px] lg:text-[32px] leading-[1.1] text-[#3C2720] italic">
             {subHeading}
           </p>
         </div>

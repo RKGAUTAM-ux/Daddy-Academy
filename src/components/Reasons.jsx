@@ -43,7 +43,7 @@ export default function Reasons() {
     <section>
       <div className="mx-auto max-w-[1452px] px-[20px]">
         <h2 className="mx-auto mb-[40px] max-w-[990px] text-center font-['DM_Sans'] text-[28px] font-bold text-[#3C2720] sm:mb-[80px] sm:text-[48px]">
-          <span className="relative before:absolute before:bottom-0 before:-z-10 before:h-[15px] before:w-full before:rounded-[4px] before:bg-[#FFB8A4] before:content-[''] md:before:h-[20px] lg:before:h-[24px]">
+          <span className="highlight-text">
             {sectionTitle.highlight}
           </span>{" "}
           {sectionTitle.text}
