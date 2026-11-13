@@ -51,7 +51,7 @@ const timelineItems = [
   },
 ];
 
-export default function Footer() {
+export default function DecisionMatrix() {
   return (
     <section className="pt-[50px] md:pt-[95px]">
       <div className="mx-auto max-w-[1452px] px-[20px]">

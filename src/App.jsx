@@ -5,7 +5,7 @@ import Intro from './components/Intro.jsx'
 import Reasons from './components/Reasons.jsx'
 import Structure from './components/Structure.jsx'
 import Guide from './components/Guide.jsx'
-import Footer from './components/Footer.jsx'
+import DecisionMatrix from './components/DecisionMatrix.jsx'
 
 export default function App() {
   const [decision, setDecision] = useState('Proceed')
@@ -16,6 +16,6 @@ export default function App() {
     <Reasons />
     <Structure />
     <Guide />
-    <Footer />
+    <DecisionMatrix />
   </main>
 }
