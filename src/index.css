@@ -17,3 +17,35 @@ body { margin: 0; min-width: 320px; min-height: 100vh; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button:focus-visible, a:focus-visible { outline: 3px solid #FFB8A4; outline-offset: 3px; }
 ::selection { background: #FFB8A4; color: #3C2720; }
+
+.highlight-text {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight-text:before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 100%;
+    background-color:#FFB8A4;
+    border-radius: 5px;
+    left: 0;
+    bottom: 4px;
+    z-index: -1;
+}
+
+.highlight-text.hero_highlight:before {
+    height: 37px;
+}
+
+@media screen and (max-width: 639px){
+.highlight-text:before {
+    height: 15px;
+    border-radius: 3px;
+}
+.highlight-text.hero_highlight:before {
+    height: 20px;
+}
+
+}

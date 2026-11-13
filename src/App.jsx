@@ -8,6 +8,7 @@ import Guide from './components/Guide.jsx'
 import DecisionMatrix from './components/DecisionMatrix.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import EverythingYouGet from './components/EverythingYouGet.jsx'
+import Footer from './components/Footer.jsx'
 
 
 export default function App() {
@@ -22,5 +23,6 @@ export default function App() {
     <DecisionMatrix />
     <Testimonials />
     <EverythingYouGet />
+    <Footer />
   </main>
 }
